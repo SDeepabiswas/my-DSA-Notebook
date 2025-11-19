@@ -43,5 +43,7 @@ def matrixMultiplication(arr):
 
 # 3 matrices of dimensions 2x1, 1x3, and 3x4, 
 if __name__ == "__main__":
-    arr = [3, 4]
+    # arr = [3, 4]
+    # arr = [2,1,3,4]
+    arr = [1,2,3,4,3]
     print(matrixMultiplication(arr))

@@ -39,14 +39,7 @@ def zigZagTraversal(root):
 
 if __name__ == "__main__":
     
-    # Create a input binary tree
-    #         20
-    #       /   \
-    #      8     22
-    #    /  \     \
-    #   4   12    11
-    #      /  \
-    #     10   14
+    # Create a input binary tree (this shall be modified later by a cleaner version)
     root = tree.Node(20)
     root.left = tree.Node(8)
     root.right = tree.Node(22)
